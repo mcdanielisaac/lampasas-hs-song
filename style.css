@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #1e3a8a;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.location {
+    color: #3b82f6;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #1e3a8a;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.lyrics {
+    line-height: 2;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.verse {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8fafc;
+    border-left: 4px solid #1e3a8a;
+    border-radius: 5px;
+}
+
+.verse:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #e5e7eb;
+    color: #1e3a8a;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .container {
+        box-shadow: none;
+        border-radius: 0;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    header {
+        border-bottom: 2px solid #000;
+    }
+
+    h1, .subtitle, footer {
+        color: #000;
+    }
+
+    .location {
+        color: #666;
+    }
+
+    .verse {
+        background: white;
+        border-left: 3px solid #000;
+        page-break-inside: avoid;
+    }
+
+    footer {
+        border-top: 2px solid #000;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+
+    .lyrics {
+        font-size: 1em;
+        line-height: 1.8;
+    }
+
+    .verse {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px 15px;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .subtitle {
+        font-size: 0.9em;
+    }
+}
