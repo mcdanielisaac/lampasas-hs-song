@@ -58,16 +58,40 @@ h1 {
     font-size: 1.1em;
 }
 
-.verse {
-    margin-bottom: 30px;
-    padding: 20px;
+.song {
+    margin-bottom: 40px;
+}
+
+.song:last-child {
+    margin-bottom: 0;
+}
+
+.song-title {
+    color: #1e3a8a;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+}
+
+.song-text {
+    padding: 20px 24px;
     background: #f8fafc;
     border-left: 4px solid #1e3a8a;
     border-radius: 5px;
 }
 
-.verse:last-child {
+.stanza {
+    margin-bottom: 1.4em;
+}
+
+.stanza:last-child {
     margin-bottom: 0;
+}
+
+.chant {
+    font-weight: bold;
+    color: #1e3a8a;
 }
 
 footer {
@@ -106,10 +130,21 @@ footer {
         color: #666;
     }
 
-    .verse {
+    .song-title {
+        color: #000;
+    }
+
+    .song {
+        page-break-inside: avoid;
+    }
+
+    .song-text {
         background: white;
         border-left: 3px solid #000;
-        page-break-inside: avoid;
+    }
+
+    .chant {
+        color: #000;
     }
 
     footer {
@@ -135,8 +170,12 @@ footer {
         line-height: 1.8;
     }
 
-    .verse {
-        padding: 15px;
+    .song-text {
+        padding: 15px 18px;
+    }
+
+    .song-title {
+        font-size: 1.15em;
     }
 }
 
