@@ -74,6 +74,11 @@ h1 {
     margin-bottom: 12px;
 }
 
+.song-pretext {
+    color: #3b82f6;
+    font-size: .8em;
+}
+
 .song-text {
     padding: 20px 24px;
     background: #f8fafc;
@@ -87,6 +92,14 @@ h1 {
 
 .stanza:last-child {
     margin-bottom: 0;
+}
+
+.attribution {
+    margin-top: 12px;
+    font-size: .85em;
+    font-style: italic;
+    color: #64748b;
+    line-height: 1.6;
 }
 
 .chant {

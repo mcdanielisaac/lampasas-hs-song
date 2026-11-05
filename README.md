@@ -25,7 +25,15 @@ Cause I'm a Badger, Badger, Badger riding on a Texas gale.
 Go. Fight. Badgers fight.
 Go. Fight. Win tonight.
 
+To the tune of "I'm a Jayhawk" (University of Kansas fight song).
+Written and composed by George H. "Dumpy" Bowles, 1912.
+"I'm a Badger" lyrics by Velma Harrison, Lampasas High School history teacher and girls' basketball coach, 1955–1956.
+
 
 ### Lampasas, TX
 Battlin' Badgers
 Royal Blue and White
+
+
+#### Reference
+https://www.facebook.com/lampasasmuseum/posts/pfbid01L6ySzfXG1XDLV5c2ijoAx8qWjEhFp4LQCyxygN6b8pwAp3F4LYrHrjM39F2opRWl
